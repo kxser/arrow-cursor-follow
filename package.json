@@ -6,6 +6,7 @@
     "build": "nuxt build",
     "dev": "nuxt dev",
     "generate": "nuxt generate",
+    "pages:build": "NUXT_APP_BASE_URL=/arrow-cursor-follow/ nuxt build --preset github_pages",
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare"
   },
